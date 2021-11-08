@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  border-spacing: 1px;
+}
+
+.box{
+  width: 350px;
+  font-size: 14px;
+  margin: 10 auto;
+  background-color: #cc25dd;
+  color: white;
+  float: left;
+  display: block;
+}
+ul{
+  text-decoration: none;
+  padding: 10px 0;
+}
+ul li a{
+  
+  padding: 1px 0;
+  margin: 20px;
+  text-decoration: none;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+ul li a:hover{
+  background-color:white ;
+  opacity: .3;
+  border: 1px solid #cc25dd;
+  cursor: pointer;
+}
